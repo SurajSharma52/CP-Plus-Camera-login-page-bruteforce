@@ -25,7 +25,7 @@ not responsible for anything if you caut darty handed using this tool.
 # RUN THESE COMMANDS ON POWERSHELL
 
 - Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-- Enter y and press enter { if asked! }
+- Enter "A" and press enter { if asked! }
 - python --version
 - NAVIGATE TO THE DIRECTORY WHERE YOU DOWNLOAD THIS PROJECT AND RUN THESE COMMANDS
 
