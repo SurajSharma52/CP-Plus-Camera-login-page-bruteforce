@@ -1,4 +1,4 @@
-############################  REQUIREMENTS  ###########################
+############################  # REQUIREMENTS # ###########################
 
 # Python
 # Create Your Own Password Wordlist
