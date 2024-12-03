@@ -3,12 +3,6 @@
 - Python
 - Create Your Own Password Wordlist if possible
 
-# WARNING 
-
-This tool is only for educational and testing purposes. Do not use
-this tool for malesious purposes. This is open source tool so we will
-not responsible for anything if you caut darty handed using this tool.
-
 # ABOUT
 
 This tool is designed according to [CP PLUS CAMERA] login page and only 
@@ -25,6 +19,12 @@ you. If password is not encoded before POST request then I recommend
 you to use [hydra] and second one is [burpsuit intersepter], which 
 can also bruteforce login pages. update of version of this script 
 contain powerful wordlist maker and speed will also be increased.
+
+# WARNING 
+
+This tool is only for educational and testing purposes. Do not use
+this tool for malesious purposes. This is open source tool so we will
+not responsible for anything if you caut darty handed using this tool.
 
 # SET UP
 
