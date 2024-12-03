@@ -63,7 +63,7 @@ any error
 
 # IF NOT WORKING PROPERLY 
 
-- find correct path of your wifi adapter. And edit the [exploit.py] script and find the line
+- find correct path of your wifi adapter. And edit the _exploit.py script and find the line
 
 f"Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Class\\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\\0001' -Name NetworkAddress -Value {mac_address}"
 
