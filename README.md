@@ -59,7 +59,9 @@ contain powerful wordlist maker and speed will also be increased.
 - Tap on folder name 0001
 - If you can see your wifi adapter name here for eg., 
 (Intel(R) Wi-Fi 6E AX211 160MHz), then you can run this script without 
-any error [otherwise] find correct path of your wifi adapter.
+any error
+- otherwise
+find correct path of your wifi adapter.
 And edit the [exploit.py] script and find the line
 
 f"Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Class\\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\\0001' -Name NetworkAddress -Value {mac_address}"
