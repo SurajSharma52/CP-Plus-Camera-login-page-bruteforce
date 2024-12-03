@@ -3,13 +3,13 @@
 - Python
 - Create Your Own Password Wordlist if possible
 
-###########################  WARNING  ################################
+# WARNING 
 
 This tool is only for educational and testing purposes. Do not use
 this tool for malesious purposes. This is open source tool so we will
 not responsible for anything if you caut darty handed using this tool.
 
--------------------------------ABOUT-----------------------------------
+# ABOUT
 
 This tool is designed according to [CP PLUS CAMERA] login page and only 
 work in Windows System. This tool attempt 4 login at once and changes
@@ -26,46 +26,49 @@ you to use [hydra] and second one is [burpsuit intersepter], which
 can also bruteforce login pages. update of version of this script 
 contain powerful wordlist maker and speed will also be increased.
 
-------------------------------SET UP-----------------------------------
+# SET UP
 
-1. Install Python latest version https://www.python.org/downloads/
-2. run PowerShell as Administrator
+- Install Python latest version https://www.python.org/downloads/
+- run PowerShell as Administrator
 
------------------RUN THESE COMMANDS ON POWERSHELL-----------------------
+# RUN THESE COMMANDS ON POWERSHELL
 
-3. Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-# Enter y and press enter [if asked!]
-4. python --version
+- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+- Enter y and press enter [if asked!]
+- python --version
 
---------NAVIGATE TO THE DIRECTORY WHERE YOU DOWNLOAD THIS PROJECT--------- 
+- NAVIGATE TO THE DIRECTORY WHERE YOU DOWNLOAD THIS PROJECT AND RUN THESE COMMANDS
 
-5. python3 -m venv env
-6. cd env\Scripts
-7. ./activate
-8. cd ../..
-9. pip install pyautogui
-10. pip install pynput
+- python3 -m venv env
+- cd env\Scripts
+- ./activate
+- cd ../..
+- pip install pyautogui
+- pip install pynput
 
-------------------------------CHECK THESE PATHS--------------------------
+# CHECK THESE PATHS
 
-11. PRESS Windows + r
-12. TYPE regedit
-13. find folder name HKEY_LOCAL_MACHINE
-14. find folder name SYSTEM
-15. find folder name CurrentControlSet
-16. find folder name Control
-17. find folder name Class
-18. find folder name 4D36E972-E325-11CE-BFC1-08002BE10318
-19. Tap on folder name 0001
-20. If you can see your wifi adapter name here for eg., 
+- PRESS Windows + r
+- TYPE regedit
+- find folder name HKEY_LOCAL_MACHINE
+- find folder name SYSTEM
+- find folder name CurrentControlSet
+- find folder name Control
+- find folder name Class
+- find folder name 4D36E972-E325-11CE-BFC1-08002BE10318
+- Tap on folder name 0001
+- If you can see your wifi adapter name here for eg., 
 (Intel(R) Wi-Fi 6E AX211 160MHz), then you can run this script without 
 any error [otherwise] find correct path of your wifi adapter.
 And edit the [exploit.py] script and find the line
+
 f"Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Class\\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\\0001' -Name NetworkAddress -Value {mac_address}"
-add the full path of your adapter folder in place of 
+
+- add the full path of your adapter folder in place of
+- 
 {HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Class\\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\\0001}
 
-----------------------------RUNNING SCRIPT---------------------------------
+# RUNNING SCRIPT
 
-21. python exploit.py
+- python exploit.py
 
