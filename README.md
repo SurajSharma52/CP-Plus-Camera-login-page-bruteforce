@@ -5,20 +5,11 @@
 
 # ABOUT
 
-This tool is designed according to { CP PLUS CAMERA } login page and only 
-work in Windows System. This tool attempt 4 login at once and changes
-the MacAddress of your device before locking the login page. This step
-changes your IP Address in your router. So you will get 5 more attempts.
-And it is not vary fast like other tools. It's speed is approx 12 words 
-per minute. It is designed only for those scenarios where password is 
-{ strongly encoded } by algorithms by Login page, before sending the POST 
-request. That's way you should use it only for advanced perposes. You
-can intersept the requests using tools like { burpsuit } and check wether 
-the password is encoded or not. If yes then this tool Definitely helps 
-you. If password is not encoded before POST request then I recommend 
-you to use { hydra } and second one is { burpsuit intersepter }, which 
-can also bruteforce login pages. update of version of this script 
-contain powerful wordlist maker and speed will also be increased.
+This tool is designed specifically for the CP PLUS CAMERA login page and works only on Windows systems. It attempts 4 login attempts at a time and changes the MAC address of your device before the login page gets locked. This step also changes your IP address on your router, giving you 5 more attempts. However, it is not very fast compared to other tools. Its speed is approximately 12 words per minute.
+
+This tool is designed for scenarios where the password is strongly encoded by the login page's algorithm before sending the POST request. Therefore, you should use it only for advanced purposes. You can intercept the requests using tools like Burp Suite to check whether the password is encoded or not. If it is encoded, this tool will definitely help you. However, if the password is not encoded before the POST request, I recommend using tools like Hydra or the Burp Suite Interceptor, which can also brute-force login pages effectively.
+
+Future updates of this script will include a powerful wordlist generator and improved speed.
 
 # WARNING 
 
