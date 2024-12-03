@@ -13,9 +13,7 @@ Future updates of this script will include a powerful wordlist generator and imp
 
 # WARNING 
 
-This tool is only for educational and testing purposes. Do not use
-this tool for malesious purposes. This is open source tool so we will
-not responsible for anything if you caut darty handed using this tool.
+This tool is intended only for educational and testing purposes. Do not use this tool for malicious activities. This is an open-source tool, and we are not responsible for any consequences if you are caught using it for unethical purposes.
 
 # SET UP
 
