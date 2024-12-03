@@ -1,7 +1,7 @@
-############################  # REQUIREMENTS # ###########################
+# REQUIREMENTS
 
-# Python
-# Create Your Own Password Wordlist
+- Python
+- Create Your Own Password Wordlist if possible
 
 ###########################  WARNING  ################################
 
